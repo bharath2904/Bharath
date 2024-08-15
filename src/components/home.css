@@ -139,5 +139,14 @@
 
     }
 
+    .button1 a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .button2 a{
+        text-decoration: none;
+        color: black;
+    }
 
 

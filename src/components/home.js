@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/home.css";
+import BResume from './Assets/BResume.pdf'
 
 function Home() {
   return (
@@ -59,10 +60,10 @@ function Home() {
             </div>
             <div className="d-flex justify-content-center gap-3">
               <button class="button1 btn btn-outline-dark btn-transparent">
-                View Portfolio
+                <a href={BResume}>View CV</a>
               </button>
               <button class="button2 btn btn-outline-dark btn-transparent">
-                Download CV
+                <a href="" download={BResume}>Download CV</a>
               </button>
             </div>
           </div>
