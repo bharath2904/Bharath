@@ -1,0 +1,143 @@
+@media (max-width: 767.98px) {
+        .navbar-nav {
+            background-color: rgb(75, 73, 73);
+            border-radius: 10px;
+        }
+        .navbar-nav .nav-link {
+            color:black; 
+        }
+        .line{
+        border: 1px solid black;
+        opacity: 0.1;
+        }
+    }
+
+    .container-lg{
+        margin-top: 20%;
+    }
+
+    .first{
+        margin-top: 15%;
+    }
+
+
+    .inner-div{
+        margin-left: 33%;
+    }
+
+    .navbar{
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        top: 0;
+    }
+
+    .nav-link:hover{
+        background-color: rgb(95, 92, 92);
+        border-radius: 5px;
+    }
+
+    .custom{
+        border-bottom: 2px solid black;
+    }
+
+    .accordion{
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .accordion button{
+        border-color: black;
+        outline: black;
+    }
+
+    .box{
+        width: 80%;
+        margin-left: 10%;
+        padding: 20px;
+    }
+
+    .box0{
+        width: 100%;
+    }
+
+    .box1{
+        width: 80%;
+        margin-left: 10%;
+        padding: 20px;
+    }
+
+    .box2{
+        width: 80%;
+        margin-left: 10%;
+        padding: 20px;
+    }
+
+    .box3{
+        margin-top: 20%;
+    }
+    
+    .project{
+        border: none;
+        width: 15%;
+        padding: 5px;
+    }
+
+    .button1{
+        background-color: #212529;
+        color: white;
+    }
+
+    .button1:hover{
+        background-color:#ced4da;
+        color: black;
+    }
+
+    .container{
+        margin-top: 20%;
+    }
+
+    .icon{
+        border-radius:80px;
+    }
+
+    .contact{
+        width: 30%;
+    }
+
+    .form-control{
+        margin-left: 48%;
+        outline: none;
+    }
+    
+    .button4{
+        background-color: #ced4da;
+        outline: solid 1px black;
+        border-radius: 10px;
+        color: black;
+        margin-left: 48%;
+        
+    }
+
+    .button4:hover{
+        background-color:#212529;
+        color: white;
+        
+    }
+
+
+
+    @media(max-width:800px){
+        .form-control{
+            margin-left: 0;
+        }
+
+        .button4{
+            margin-left: 0;
+        }
+
+    }
+
+
+
