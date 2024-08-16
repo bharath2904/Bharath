@@ -1,8 +1,24 @@
 import React from "react";
 import "../components/home.css";
 import BResume from './Assets/BResume.pdf'
+import { useState } from "react";
+
 
 function Home() {
+  const[name,setName]=useState("")
+  const[email,setEmail]=useState("")
+  const[subject,setSubject]=useState("")
+  const[message,setMessage]=useState("")
+
+
+  const getFormData=()=>{
+    localStorage.setItem("Name",name)
+    localStorage.setItem("Email",email)
+    localStorage.setItem("Subject",subject)
+    localStorage.setItem("Message",message)
+
+  }
+
   return (
     <div>
       <section id="home">
@@ -63,7 +79,7 @@ function Home() {
                 <a href={BResume}>View CV</a>
               </button>
               <button class="button2 btn btn-outline-dark btn-transparent">
-                <a href="" download={BResume}>Download CV</a>
+                <a href={BResume} download={BResume}>Download CV</a>
               </button>
             </div>
           </div>
@@ -331,39 +347,57 @@ function Home() {
             <div class="text-center mb-4">
               <h5>Get In Touch</h5>
             </div>
-
+            <form action="" id="form" className="form">
             <div class="col-md-6">
               <div class="form d-flex flex-column gap-4">
                 <input
                   placeholder="Name"
                   type="text"
+                  name="name" id="name" 
                   class="form-control bg-light border-0 p-2"
+                  required
+                  onChange={(e)=>{setName(e.target.value)}}
                 />
+                <div className="error"></div>
                 <input
                   placeholder="Email"
                   type="email"
+                  name="email" id="email" required
                   class="form-control bg-light border-0 p-2"
+                  onChange={(e)=>{setEmail(e.target.value)}}
                 />
+                <div className="error"></div>
                 <input
                   placeholder="Subject"
                   type="text"
+                  name="subject" id="subject"
                   class="form-control bg-light border-0 p-2"
+                  required
+                  onChange={(e)=>{setSubject(e.target.value)}}
                 />
+                <div className="error"></div>
                 <textarea
                   placeholder="Message"
+                  name="message" id="message"
                   class="form-control bg-light border-0 p-2"
                   rows="4"
+                  required
+                  onChange={(e)=>{setMessage(e.target.value)}}
                 ></textarea>
+                <div className="error"></div>
                 <button
-                  type="submit"
+                  type="submit" onClick={getFormData}
                   class="button4 btn-dark btn-transparent border-0 p-2"
                 >
                   Send Message
                 </button>
+                
               </div>
             </div>
+            </form>
           </div>
         </div>
+        
       </section>
     </div>
   );

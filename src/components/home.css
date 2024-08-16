@@ -86,12 +86,10 @@
 
     .button1{
         background-color: #212529;
-        color: white;
     }
 
     .button1:hover{
         background-color:#ced4da;
-        color: black;
     }
 
     .container{
@@ -144,9 +142,34 @@
         color: white;
     }
 
+    .button1 a:hover{
+        color: black;
+    }
+
     .button2 a{
         text-decoration: none;
         color: black;
+    
     }
+
+
+    .button2:hover{
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    
+    }
+    
+    .button2:hover{
+        background-color:#212529;
+        color:white ;
+    }
+
+    .button2 a:hover{
+        color: white;
+    }
+
+    
 
 
