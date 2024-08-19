@@ -325,7 +325,20 @@ function Home() {
               <h5 className="mt-5">Portfolio</h5>
             </div>
             <p className="ms-5">
-            The portfolio website is built using HTML, CSS, JavaScript, and React.js. It provides a comprehensive showcase of your work and skills. HTML forms the foundational structure, creating sections such as a home page, projects, an about me section, and a contact form. CSS styles the site to ensure it is visually appealing, incorporating custom design elements, responsive layouts, and animations for a modern look. JavaScript adds interactivity, enabling dynamic content updates, form validations, and various interactive features. The site includes a dynamic portfolio of projects, an informative about me section, and a functional contact form, all designed to be accessible and attractive on both desktop and mobile devices. The website is deployed on a web hosting service like GitHub Pages or Netlify for public access and easy updates.
+              The portfolio website is built using HTML, CSS, JavaScript, and
+              React.js. It provides a comprehensive showcase of your work and
+              skills. HTML forms the foundational structure, creating sections
+              such as a home page, projects, an about me section, and a contact
+              form. CSS styles the site to ensure it is visually appealing,
+              incorporating custom design elements, responsive layouts, and
+              animations for a modern look. JavaScript adds interactivity,
+              enabling dynamic content updates, form validations, and various
+              interactive features. The site includes a dynamic portfolio of
+              projects, an informative about me section, and a functional
+              contact form, all designed to be accessible and attractive on both
+              desktop and mobile devices. The website is deployed on a web
+              hosting service like GitHub Pages or Netlify for public access and
+              easy updates.
             </p>
             <button className="btn btn-outline-light btn-transparent ms-5">
               <a
@@ -360,6 +373,7 @@ function Home() {
                   outcomes and elevate your business to new heights."
                 </p>
               </div>
+
               <div class="col-md-6 col-lg-4  mt-5">
                 <h4 className="h5 mb-2">E M A I L</h4>
                 <a
@@ -377,85 +391,96 @@ function Home() {
           </div>
         </div>
       </section>
-      <div className="footer">
-        <div className="d-flex justify-content-evenly">
-          <div className="abt mt-5">
-            <h3 className="">About Bharathwaj</h3>
-            <p className="mt-5">
-              Hello, I'm Bharathwaj from Thanjavur. I recently graduated with a
-              BCA from St. Joseph's College, Trichy, and I'm currently training
-              as a Full Stack Developer at Besant Technologies. I have a strong
-              foundation in front-end development with HTML, CSS, and
-              JavaScript, and I also possess basic proficiency in Python and
-              Object-Oriented Programming concepts. During my internship at
-              Trichy Aerial Root Infotech, I gained practical experience in
-              junior web development with HTML, CSS, and JavaScript, as well as
-              SQL database management. Additionally, I developed a Python
-              project that simulates an interactive ordering system for a
-              restaurant, which is available on my GitHub. My key skills include
-              HTML, CSS, JavaScript, SQL, PostgreSQL, Python, and Git.
-            </p>
+
+      <section class="footer bg-dark text-light" id="footer">
+        <div class="container py-5 ">
+          <div class="row">
+            <div class="abt col-12 col-md-6 mb-4 mb-md-0">
+              <h3>About Bharathwaj</h3>
+              <p class="mt-3">
+                Hello, I'm Bharathwaj from Thanjavur. I recently graduated with
+                a BCA from St. Joseph's College, Trichy, and I'm currently
+                training as a Full Stack Developer at Besant Technologies. I
+                have a strong foundation in front-end development with HTML,
+                CSS, and JavaScript, and I also possess basic proficiency in
+                Python and Object-Oriented Programming concepts. During my
+                internship at Trichy Aerial Root Infotech, I gained practical
+                experience in junior web development with HTML, CSS, and
+                JavaScript, as well as SQL database management. Additionally, I
+                developed a Python project that simulates an interactive
+                ordering system for a restaurant, which is available on my
+                GitHub. My key skills include HTML, CSS, JavaScript, SQL,
+                PostgreSQL, Python, and Git.
+              </p>
+            </div>
+            <div class="site col-12 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center">
+              <h3>Site Links</h3>
+              <a class="mt-2" href="#home">
+                Home
+              </a>
+              <a class=" mt-2" href="#about">
+                About
+              </a>
+              <a class=" mt-2" href="#project">
+                Projects
+              </a>
+              <a class=" mt-2" href="#contact">
+                Contact
+              </a>
+            </div>
           </div>
-          <div className="site d-flex flex-column mt-5">
-            <h3>Site Links</h3>
-            <a className="mt-5" href="#home">
-              Home
-            </a>
-            <a href="#about">About</a>
-            <a href="#project">Projects</a>
-            <a href="#contact">Contact</a>
+          <div class="d-flex flex-column align-items-center mt-5">
+            <div class="d-flex mb-3">
+              <a
+                class="text-light mx-2"
+                href="https://www.linkedin.com/in/bharathwaj08/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40px"
+                  viewBox="0 -960 960 960"
+                  width="40px"
+                  fill="#e8eaed"
+                >
+                  <path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z" />
+                </svg>
+              </a>
+              <a
+                class="text-light mx-2"
+                href="https://bharath2904.github.io/Portfolio/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40px"
+                  viewBox="0 -960 960 960"
+                  width="40px"
+                  fill="#e8eaed"
+                >
+                  <path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z" />
+                </svg>
+              </a>
+            </div>
+            <div class="copy text-center mb-3">
+              © Copyright Bharathwaj 2024
+              <br />
+              Design by Bharathwaj Distribution By Git-Hub
+            </div>
+            <div className="arrow mt-3">
+              <a href="#home">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="80px"
+                  viewBox="0 -960 960 960"
+                  width="80px"
+                  fill="#e8eaed"
+                >
+                  <path d="M440-320h80v-168l64 64 56-56-160-160-160 160 56 56 64-64v168Zm40 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="last d-flex justify-content-around mt-5">
-          <div className="ficons d-flex justify-content-start">
-            <a href="https://www.linkedin.com/in/bharathwaj08/">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="40px"
-                viewBox="0 -960 960 960"
-                width="40px"
-                fill="#e8eaed"
-              >
-                <path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z" />
-              </svg>
-            </a>
-
-            <a href="https://bharath2904.github.io/Portfolio/">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="40px"
-                viewBox="0 -960 960 960"
-                width="40px"
-                fill="#e8eaed"
-              >
-                <path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z" />
-              </svg>
-            </a>
-            
-            
-          </div>
-
-          <div className="copy">
-            © Copyright Bharathwaj 2024
-            <br />
-            Design by Bharathwaj Distribution By Git-Hub
-          </div>
-
-          <div className="arrow">
-            <a href="#home">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="80px"
-                viewBox="0 -960 960 960"
-                width="80px"
-                fill="#e8eaed"
-              >
-                <path d="M440-320h80v-168l64 64 56-56-160-160-160 160 56 56 64-64v168Zm40 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }

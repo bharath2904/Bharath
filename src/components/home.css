@@ -192,8 +192,8 @@
     }
 
     .abt{
-        width: 50%;
         color:white;
+       
     }
 
     .abt p{
@@ -203,12 +203,14 @@
 
     .site{
         color: white;
+        text-align: justify;
     }
 
     .site a{
         text-decoration: none;
         padding: 5px;
         color: silver;
+        
     }
 
     .site a:hover{
@@ -219,6 +221,15 @@
         color: silver;
     }
     
+    .last{
+        background-color: black;
+    }
+
+    .arrow a svg:hover{
+        color: red;
+        transform: translateY(-20px);
+    }
+
     
 
 
