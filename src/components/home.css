@@ -74,6 +74,23 @@
         padding: 20px;
     }
 
+    .right{
+        width: 50%;
+    }
+
+    .right p{
+        text-align: justify;
+    }
+
+    .contacts{
+        text-decoration: none;
+    }
+    .contacts:hover{
+        text-decoration: underline;
+        color: blue;
+
+    }
+
     .box3{
         margin-top: 20%;
     }
@@ -170,6 +187,38 @@
         color: white;
     }
 
+    .footer{
+        background-color: black;
+    }
+
+    .abt{
+        width: 50%;
+        color:white;
+    }
+
+    .abt p{
+        text-align: justify;
+        color: silver;
+    }
+
+    .site{
+        color: white;
+    }
+
+    .site a{
+        text-decoration: none;
+        padding: 5px;
+        color: silver;
+    }
+
+    .site a:hover{
+        color: white;
+    }
+
+    .copy{
+        color: silver;
+    }
+    
     
 
 
