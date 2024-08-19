@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/home.css";
-import BResume from "./Assets/BResume.pdf";
+import BResume from "./Asset/Bharath_CV.pdf";
 
 function Home() {
   return (
