@@ -58,7 +58,7 @@ function Home() {
             <h1 className="text-center text-muted  fw-bolder">
               I'M BHARATHWAJ
             </h1>
-            <div className="inner-div text-center text-light bg-dark rounded border border-3 p-3 my-5 col-4">
+            <div className="topic inner-div text-center text-light bg-dark rounded border border-3 p-3 my-5 col-4">
               Full Stack Python Developer
             </div>
             <div className="d-flex justify-content-center gap-3">
