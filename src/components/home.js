@@ -53,7 +53,7 @@ function Home() {
           </div>
         </nav>
 
-        <div className="first">
+        <div className="firs">
           <div className="container-lg bg-dark-subtle p-5 my-5 rounded phill border border-2">
             <h1 className="text-center text-muted  fw-bolder">
               I'M BHARATHWAJ
@@ -137,7 +137,7 @@ function Home() {
                       </div>
 
                       {/* CSS */}
-                      <div className="p-5 bg-light shadow custom ">
+                      <div className="p-5 bg-light custom ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"
@@ -150,7 +150,7 @@ function Home() {
                       </div>
 
                       {/* Js */}
-                      <div className="p-5 bg-light shadow-lg custom">
+                      <div className="p-5 bg-light custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 448 512"
@@ -163,7 +163,7 @@ function Home() {
                       </div>
 
                       {/* Python */}
-                      <div className="p-5 bg-light shadow-lg custom">
+                      <div className="p-5 bg-light custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 448 512"
@@ -176,7 +176,7 @@ function Home() {
                       </div>
 
                       {/* SQL */}
-                      <div className="p-5 bg-light shadow custom">
+                      <div className="p-5 bg-light  custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           height="40px"
@@ -361,7 +361,7 @@ function Home() {
         {/* Work experiences is start */}
         <div>
           <div>
-            <h4 className="mt-5 ms-5">
+            <h4 className="mt-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -395,9 +395,8 @@ function Home() {
 
       <section id="project">
         {/* Project section start */}
-        <div className="box3">
-          <div>
-            <h4 className="ms-5 mt-5">
+        <div>
+            <h4 className="box2 mt-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 512"
@@ -410,6 +409,7 @@ function Home() {
               Projects
             </h4>
           </div>
+        
           <div className="box1 bg-dark-subtle border rounded pill">
             <div>
               <h5>Food Restaurant - Python</h5>
@@ -479,12 +479,12 @@ function Home() {
               </a>
             </button>
           </div>
-        </div>
+       
         {/* Project section is end */}
       </section>
 
       <section id="contact" className="py-4">
-        <div className="container">
+        <div className="container-lg">
           <h4 className="text-start mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
