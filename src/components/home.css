@@ -1,16 +1,7 @@
-@media (max-width: 767.98px) {
-        .navbar-nav {
-            background-color: rgb(75, 73, 73);
-            border-radius: 10px;
-        }
-        .navbar-nav .nav-link {
-            color:black; 
-        }
-        .line{
-        border: 1px solid black;
-        opacity: 0.1;
-        }
-    }
+     *{
+        margin: 0;
+        padding: 0;
+     }
 
     .container-lg{
         margin-top: 20%;
@@ -59,11 +50,7 @@
     }
 
 
-    @media(max-width:600px){
-        .skills{
-            margin-left: 10%;
-        }
-    }
+    
 
     .accordion{
         margin-top: 5%;
@@ -81,19 +68,6 @@
         outline: black;
     }
 
-    @media(max-width:600px){
-        .education{
-            display: flex;
-            flex-direction: column;
-            
-        }
-        
-        .clglogo{
-            margin-left: 3%;
-            
-        }
-
-    }
 
     .box{
         width: 80%;
@@ -184,12 +158,6 @@
         margin-left: 10px;
     }
 
-
-    
-
-
-    
-
     .container{
         margin-top: 20%;
     }
@@ -226,28 +194,6 @@
 
     
 
-    @media(max-width:800px){
-        .form-control{
-            margin-left: 0;
-        }
-
-        .button4{
-            margin-left: 0;
-        }
-
-    }
-
-    
-
-
-    .button2:hover{
-        a{
-            color: white;
-            text-decoration: none;
-        }
-
-    
-    }
     
     .button2:hover{
         background-color:#212529;
@@ -307,13 +253,71 @@
     }
 
     .github:hover{
-        fill: #333;
+        fill:#ff4500;
     }
 
     .twitter:hover{
         fill: #1da1f2;
     }
 
+    .scrollup:hover{
+        fill: #000000;
+    }
+
+    
+    @media(max-width:800px){
+        .form-control{
+            margin-left: 0;
+        }
+
+        .button4{
+            margin-left: 0;
+        }
+
+    }
+
+    .button2:hover{
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+    
+    }
+
     
 
 
+    @media (max-width: 767.98px) {
+        .navbar-nav {
+            background-color: rgb(75, 73, 73);
+            border-radius: 10px;
+        }
+        .navbar-nav .nav-link {
+            color:black; 
+        }
+        .line{
+        border: 1px solid black;
+        opacity: 0.1;
+        }
+    }
+
+    
+    @media(max-width:600px){
+        .education{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        .clglogo{
+            margin-left: 3%;
+            
+        }
+
+    }
+    @media(max-width:600px){
+        .skills{
+            margin-left: 10%;
+        }
+    }
