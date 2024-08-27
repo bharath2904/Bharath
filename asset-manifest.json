@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f78ab384.css",
-    "main.js": "/Portfolio/static/js/main.b4a7057e.js",
+    "main.css": "/Portfolio/static/css/main.a972884c.css",
+    "main.js": "/Portfolio/static/js/main.2e97cc26.js",
     "static/media/Bharath_CV.pdf": "/Portfolio/static/media/Bharath_CV.4136e616965b90d188b3.pdf",
+    "static/media/clglogo.png": "/Portfolio/static/media/clglogo.644c63a980c5bad61b9d.png",
     "index.html": "/Portfolio/index.html",
-    "main.f78ab384.css.map": "/Portfolio/static/css/main.f78ab384.css.map",
-    "main.b4a7057e.js.map": "/Portfolio/static/js/main.b4a7057e.js.map"
+    "main.a972884c.css.map": "/Portfolio/static/css/main.a972884c.css.map",
+    "main.2e97cc26.js.map": "/Portfolio/static/js/main.2e97cc26.js.map"
   },
   "entrypoints": [
-    "static/css/main.f78ab384.css",
-    "static/js/main.b4a7057e.js"
+    "static/css/main.a972884c.css",
+    "static/js/main.2e97cc26.js"
   ]
 }
