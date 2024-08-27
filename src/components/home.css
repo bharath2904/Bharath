@@ -1,19 +1,22 @@
      *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
      }
 
     .container-lg{
-        margin-top: 20%;
+        margin-top: 5%;
     }
 
     .first{
-        margin-top: 15%;
+        margin-top: 5%;
     }
 
 
     .inner-div{
-        margin-left: 33%;
+        
+        margin: 0 auto;
+        max-width: 80%;
     }
 
     .navbar{
@@ -53,14 +56,14 @@
     
 
     .accordion{
-        margin-top: 5%;
-        width: 80%;
-       margin-left: 10%;
+        
+        width: 100%;
+      
     }
 
     .clglogo{
         margin-top: 30%;
-        margin-left: 5%;
+        
     }
 
     .accordion button{
@@ -70,8 +73,7 @@
 
 
     .box{
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
         padding: 20px;
     }
 
@@ -80,19 +82,17 @@
     }
 
     .box1{
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
         padding: 20px;
     }
 
     .box2{
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
         padding: 20px;
     }
 
     .right{
-        width: 50%;
+        width: 100%;
     }
 
     .right p{
@@ -109,7 +109,7 @@
     }
 
     .box3{
-        margin-top: 20%;
+        margin-top: 5%;
         
     }
     
@@ -263,7 +263,7 @@
     .scrollup:hover{
         fill: #000000;
     }
-
+/* 
     
     @media(max-width:800px){
         .form-control{
@@ -274,7 +274,7 @@
             margin-left: 0;
         }
 
-    }
+    } */
 
     .button2:hover{
         a{
@@ -310,10 +310,6 @@
             
         }
         
-        .clglogo{
-            margin-left: 3%;
-            
-        }
 
     }
     @media(max-width:600px){
