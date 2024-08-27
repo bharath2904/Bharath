@@ -38,18 +38,61 @@
     }
 
     .custom{
-        border-bottom: 2px solid black;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .custom:hover{
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count:infinite;
+        animation-timing-function: linear;
+        transform-origin: center; 
+    }
+
+
+    @media(max-width:600px){
+        .skills{
+            margin-left: 10%;
+        }
     }
 
     .accordion{
         margin-top: 5%;
         width: 80%;
-        margin-left: 10%;
+       margin-left: 10%;
+    }
+
+    .clglogo{
+        margin-top: 30%;
+        margin-left: 5%;
     }
 
     .accordion button{
         border-color: black;
         outline: black;
+    }
+
+    @media(max-width:600px){
+        .education{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        .clglogo{
+            margin-left: 3%;
+            
+        }
+
     }
 
     .box{
@@ -93,6 +136,7 @@
 
     .box3{
         margin-top: 20%;
+        
     }
     
     .project{
@@ -107,7 +151,44 @@
 
     .button1:hover{
         background-color:#ced4da;
+        color: black;   
     }
+
+    .viewcv:hover{
+        fill: #000000;
+    }
+
+    .cvdownload:hover{
+        fill: white;
+    }
+    
+    .button1 a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .button1 a:hover{
+        color: black;
+    }
+
+    .button2 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .cvdownload{
+        margin-left: 10px;
+        margin-bottom: 10px
+    }
+    .viewcv{
+        margin-left: 10px;
+    }
+
+
+    
+
+
+    
 
     .container{
         margin-top: 20%;
@@ -141,7 +222,9 @@
         
     }
 
+    
 
+    
 
     @media(max-width:800px){
         .form-control{
@@ -154,20 +237,7 @@
 
     }
 
-    .button1 a{
-        text-decoration: none;
-        color: white;
-    }
-
-    .button1 a:hover{
-        color: black;
-    }
-
-    .button2 a{
-        text-decoration: none;
-        color: black;
     
-    }
 
 
     .button2:hover{
@@ -175,6 +245,7 @@
             color: white;
             text-decoration: none;
         }
+
     
     }
     
@@ -187,6 +258,7 @@
         color: white;
     }
 
+   
     .footer{
         background-color: black;
     }
@@ -228,6 +300,18 @@
     .arrow a svg:hover{
         color: red;
         transform: translateY(-20px);
+    }
+
+    .linkedin:hover{
+        fill: #0072b1;
+    }
+
+    .github:hover{
+        fill: #333;
+    }
+
+    .twitter:hover{
+        fill: #1da1f2;
     }
 
     
