@@ -30,6 +30,26 @@
     border-radius: 5px;
 }
 
+.name{
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange{
+    0%{
+        color: #000000;
+    }
+    
+    50%{
+        color:#ff4500;
+    }
+    100%{
+        color:royalblue;
+    }
+
+    }
+    
+
+
 .topic{
     margin-left: 33%;
 }
@@ -40,6 +60,25 @@
     border-bottom: 2px solid black;
     border-left: 1px solid whitesmoke;
     border-radius: 50%;
+}
+
+.html{
+    background-color: #F16529;
+}
+.css{
+    background-color: #1572B6;
+}
+.js{
+    background-color: #F7DF1E;
+}
+.python{
+    background-color: #FFD43B;
+}
+.sql{
+    background-color: #00618A;
+}
+.git{
+    background-color: #F05032;
 }
 
 .custom:hover {

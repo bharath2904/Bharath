@@ -130,7 +130,7 @@ function Home() {
                     <h4 className="mt-5 me-5">MY SKILLS</h4>
                     <div className="skills d-flex flex-wrap flex-row align-items-center gap-5 mt-5">
                       {/* HTML */}
-                      <div className="p-5 bg-light custom">
+                      <div className="p-5 html custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 640 512"
@@ -143,7 +143,7 @@ function Home() {
                       </div>
 
                       {/* CSS */}
-                      <div className="p-5 bg-light custom ">
+                      <div className="p-5 css custom ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"
@@ -156,7 +156,7 @@ function Home() {
                       </div>
 
                       {/* Js */}
-                      <div className="p-5 bg-light custom">
+                      <div className="p-5 js custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 448 512"
@@ -169,7 +169,7 @@ function Home() {
                       </div>
 
                       {/* Python */}
-                      <div className="p-5 bg-light custom">
+                      <div className="p-5 python custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 448 512"
@@ -182,7 +182,7 @@ function Home() {
                       </div>
 
                       {/* SQL */}
-                      <div className="p-5 bg-light  custom">
+                      <div className="p-5 sql custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           height="40px"
@@ -195,7 +195,7 @@ function Home() {
                       </div>
 
                       {/* Git */}
-                      <div className="p-5 bg-light custom">
+                      <div className="p-5 git custom">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 496 512"
