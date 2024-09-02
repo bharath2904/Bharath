@@ -216,6 +216,10 @@ function Home() {
 
         {/* Acoordion Start */}
         <div>
+        <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="89"></div>
+</div>
+
           <h4 className="mt-5 ms-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -247,6 +251,8 @@ function Home() {
                       aria-controls="collapseOne"
                     >
                       BACHELOR DEGREE OF COMPUTER APPLICATION
+
+                      fvgevewgevgvgdvdgdcfxscfxs
                     </button>
                   </h2>
                   <div
