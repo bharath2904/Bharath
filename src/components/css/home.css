@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-lg,
+.first{
+    width: auto; 
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+.nav-link:hover {
+    background-color: rgb(95, 92, 92);
+    border-radius: 5px;
+}
+
+.topic{
+    margin-left: 33%;
+}
+
+
+.box3 {
+    margin-top: 20%;
+}
+
+.project {
+    border: none;
+    width: 15%;
+    padding: 5px;
+}
+
+
+.button1 {
+    background-color: #212529;
+}
+
+.button1:hover {
+    background-color: #ced4da;
+    color: black;
+}
+
+.viewcv:hover {
+    fill: #000000;
+}
+
+.cvdownload:hover {
+    fill: white;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.button1 a:hover {
+    color: black;
+}
+
+.button2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.cvdownload {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.viewcv {
+    margin-left: 10px;
+}
+
+.icon {
+    border-radius: 80px;
+}
+
+.form-control,
+.button4 {
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.button4 {
+    background-color: #ced4da;
+    border-radius: 10px;
+    color: black;
+    width: fit-content; /* Adjust to content */
+    padding: 10px 20px;
+}
+
+.button4:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.button2 a:hover {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .form-control,
+    .button4 {
+        margin-left: 0;
+        width: 100%; 
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        background-color: rgb(75, 73, 73);
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .line {
+        border: 1px solid black;
+        opacity: 0.1;
+    }
+}
+

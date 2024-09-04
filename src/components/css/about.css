@@ -1,0 +1,81 @@
+.container-lg,
+.accordion,
+.box{
+    width: auto; 
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.box0{
+    width: 90%;
+}
+
+.custom {
+    border-top: 2px solid black;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 2px solid black;
+    border-left: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.html{
+    background-color: #F16529;
+}
+.css{
+    background-color: #1572B6;
+}
+.js{
+    background-color: #F7DF1E;
+}
+.python{
+    background-color: #FFD43B;
+}
+.sql{
+    background-color: #00618A;
+}
+.git{
+    background-color: #F05032;
+}
+
+.custom:hover {
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.clglogo {
+    margin-top: 30%;
+    margin-left: 5%;
+}
+
+.accordion button {
+    border-color: black;
+    outline: black;
+}
+
+
+@media (max-width: 600px) {
+    .education {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clglogo,
+    .skills {
+        margin: 0 auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.container-lg,.box2{
+    width: auto; 
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.contacts {
+    text-decoration: none;
+}
+
+.contacts:hover {
+    text-decoration: underline;
+    color: blue;
+}

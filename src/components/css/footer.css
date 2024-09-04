@@ -1,0 +1,56 @@
+.footer {
+    background-color: black;
+}
+
+.abt {
+    color: white;
+}
+
+.abt p {
+    text-align: justify;
+    color: silver;
+}
+
+.site {
+    color: white;
+    text-align: justify;
+}
+
+.site a {
+    text-decoration: none;
+    padding: 5px;
+    color: silver;
+}
+
+.site a:hover {
+    color: white;
+}
+
+.copy {
+    color: silver;
+}
+
+.last {
+    background-color: black;
+}
+
+.arrow a svg:hover {
+    color: red;
+    transform: translateY(-20px);
+}
+
+.linkedin:hover {
+    fill: #0072b1;
+}
+
+.github:hover {
+    fill: #ff4500;
+}
+
+.twitter:hover {
+    fill: #1da1f2;
+}
+
+.scrollup:hover {
+    fill: #000000;
+}
