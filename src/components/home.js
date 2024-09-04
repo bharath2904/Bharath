@@ -252,7 +252,6 @@ function Home() {
                     >
                       BACHELOR DEGREE OF COMPUTER APPLICATION
 
-                      fvgevewgevgvgdvdgdcfxscfxs
                     </button>
                   </h2>
                   <div
