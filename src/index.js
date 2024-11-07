@@ -17,8 +17,6 @@ root.render(
     <Certificate/>
     <Contact/>
     <Footer/>
-    
-
   </React.StrictMode>
 );
 

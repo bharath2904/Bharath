@@ -1,12 +1,9 @@
 import React from "react";
 import "../css/home.css";
 import BResume from "../Asset/Bharath_CV.pdf";
-
+import profile1 from "../images/profile_phot0.jpg";
 
 function Home() {
-
-  
-
   return (
     <div>
       <div></div>
@@ -63,43 +60,46 @@ function Home() {
           </div>
         </nav>
 
-        <div className="first">
+        <div className="first my-5  ">
           <div className="container-lg bg-dark-subtle p-5 my-5 rounded phill border border-2">
-            <h1 className="text-center text-muted  fw-bolder">
-              I'M BHARATHWAJ
-            </h1>
-            <div className="topic inner-div text-center text-light bg-dark rounded border border-3 p-3 my-5 col-4">
-              Full Stack Python Developer
+            <div className="text-center mb-4">
+              <img
+                className="profile rounded-circle"
+                src={profile1}
+                alt="profile"
+                width={200}
+              />
+              <h1 className="text-muted fw-bolder mt-3">I'M BHARATHWAJ</h1>
             </div>
-            <div className="d-flex justify-content-center gap-3">
+
+            <div className="topic inner-div text-center text-dark p-3 mb-4">
+              <h2>Full Stack Python Developer</h2>
+              <h3 className="field text-muted">Fresher</h3>
+            </div>
+
+            <div className="d-flex justify-content-center gap-3 flex-wrap">
               <button className="button1 btn btn-outline-dark btn-transparent">
-                <a href={BResume}>My Resume</a>
+                <a href={BResume} className="text-decoration-none text-light">
+                  My Resume
+                </a>
               </button>
 
+          
               <button className="button2 btn btn-outline-dark btn-transparent">
-                <a href={BResume} download={BResume}>
+                <a
+                  href={BResume}
+                  download={BResume}
+                  className="text-decoration-none text-light"
+                >
                   Download CV
-                  <svg
-                    className="cvdownload"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                    height="20px"
-                    width="20px"
-                    fill="#000000"
-                  >
-                    <path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-                  </svg>
                 </a>
               </button>
             </div>
           </div>
         </div>
       </section>
-
-
-
     </div>
   );
 }
 
-export default Home
+export default Home;

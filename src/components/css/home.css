@@ -24,9 +24,7 @@
     border-radius: 5px;
 }
 
-.topic{
-    margin-left: 33%;
-}
+
 
 
 .box3 {
@@ -136,4 +134,16 @@
         opacity: 0.1;
     }
 }
+
+.profile{
+    border-radius: 50%;
+    border: solid white 2px;
+}
+
+.field{
+    font-weight: lighter;
+}
+
+  
+
 
