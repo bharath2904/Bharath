@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/home.css";
 import BResume from "../Asset/Bharath_CV.pdf";
-import profile1 from "../images/profile_phot0.jpg";
+import profile from "../images/profile.jpg";
 
 function Home() {
   return (
@@ -65,7 +65,7 @@ function Home() {
             <div className="text-center mb-4">
               <img
                 className="profile rounded-circle"
-                src={profile1}
+                src={profile}
                 alt="profile"
                 width={200}
               />
